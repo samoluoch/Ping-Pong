@@ -13,3 +13,9 @@ h1 {
 #play {
   align-content: center;
 }
+#forms {
+  align: center;
+  background-color: #6699ff;
+  width: 200px;
+  float: right;
+}
