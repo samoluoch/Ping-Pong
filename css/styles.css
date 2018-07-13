@@ -5,17 +5,19 @@ h1 {
   align-items: center;
   height: 200px;
   padding-top: 5%;
+  margin-bottom: 0px;
 }
 #author {
   float: left;
   background-color: #808080;
   width: 100%;
+  margin-top: 0px;
 }
 #play {
   align-content: center;
 }
 #forms {
-  align: center;
+  align-items: center;
   background-color: #6699ff;
   width: 200px;
   float: right;

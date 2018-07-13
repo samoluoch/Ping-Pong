@@ -1,12 +1,12 @@
-$jQuery(document).ready(function(){
-  $("form").submit(function(event){
+$(document).ready(function(){
+  $("form#ping").submit(function(event){
     event.preventDefault();
     var number = parseInt($("input#number").val());
     var result = numbers(number);
     $("#result").text(result);
   });
 });
-var number = function(number){
+var numbers = function(number){
   if ((number%3)===0){
     return "Ping";
   }
