@@ -1,22 +1,22 @@
 $jQuery(document).ready(function(){
   $("form").submit(function(event){
     event.preventDefault();
-    var input1 = parseInt($("input#input1").val());
-    var result = numbers(input1);
+    var number = parseInt($("input#number").val());
+    var result = numbers(number);
     $("#result").text(result);
   });
 });
-var input1 = function(input1){
-  if ((input1%3)===0){
+var number = function(number){
+  if ((number%3)===0){
     return "Ping";
   }
-  else if ((input1%5)===0){
+  else if ((number%5)===0){
     return "Pong";
   }
-  else if ((input1%15)===0){
+  else if ((number%15)===0){
     return "Ping Pong";
   }
   else {
-    return input1;
+    return number;
   }
 };
