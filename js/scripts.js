@@ -16,5 +16,7 @@ var input1 = function(input1){
   else if ((input1%15)===0){
     return "Ping Pong";
   }
-
-}
+  else {
+    return input1;
+  }
+};
