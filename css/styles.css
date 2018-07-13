@@ -1,5 +1,5 @@
 h1 {
-  background-color: #6699ff;
+  background-color: #FFE5B4;
   text-align: center;
   width: 100%;
   align-items: center;
@@ -9,7 +9,7 @@ h1 {
 }
 #author {
   float: left;
-  background-color: #808080;
+  background-color: #29AB87;
   width: 100%;
   margin-top: 0px;
   color: white;
@@ -21,5 +21,5 @@ h1 {
   align-items: center;
   background-color: #6699ff;
   width: 200px;
-  float: right;
+  float: center;
 }
