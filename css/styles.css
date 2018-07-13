@@ -10,3 +10,6 @@ h1 {
   float: left;
   background-color: #808080;
 }
+#play {
+  align-content: center;
+}
