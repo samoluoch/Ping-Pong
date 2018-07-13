@@ -1,22 +1,27 @@
-$(document).ready(function(){
-  $("form#ping").submit(function(event){
+$(document).ready(function() {
+  $("form").click(function(event) {
     event.preventDefault();
-    var number = parseInt($("input#number").val());
-    var result = numbers(number);
-    $("#result").text(result);
+    var number =$("input#number").val();
+    var result = parseInt(number);
+    map(result);
+    sam.forEach(function(result) {
+      $("#ordered-list").append("<li>" + result + "</li>");
+    });
   });
 });
-var numbers = function(number){
-  if ((number%3)===0){
-    return "Ping";
-  }
-  else if ((number%5)===0){
-    return "Pong";
-  }
-  else if ((number%15)===0){
-    return "Ping Pong";
-  }
-  else {
-    return number;
-  }
-};
+
+var sam= [];
+
+function map(result) {
+  for (index = 1; index <= result; index++) {
+    if (index % 3 === 0){
+    sam.push("Ping");
+  } else if (index % 5 === 0){
+  sam.push("Pong");
+} else if (index % 15 === 0){
+  sam.push("Ping Pong");
+} else {
+  sam.push(index);
+}
+}
+}
