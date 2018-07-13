@@ -6,6 +6,9 @@ $jQuery(document).ready(function(){
     $("#result").text(result);
   });
 });
-var input1 = function(number){
-  
+var input1 = function(input1){
+  if ((input1%3)===0){
+    return "Ping";
+  }
+
 }
