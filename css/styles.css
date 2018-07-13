@@ -1,7 +1,12 @@
 h1 {
-  background-color: #cc99ff;
+  background-color: #6699ff;
   text-align: center;
   width: 100%;
   align-items: center;
   height: 200px;
+  padding-top: 5%;
+}
+#author {
+  float: left;
+  background-color: #808080;
 }
