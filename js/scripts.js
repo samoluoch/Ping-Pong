@@ -10,5 +10,11 @@ var input1 = function(input1){
   if ((input1%3)===0){
     return "Ping";
   }
+  else if ((input1%5)===0){
+    return "Pong";
+  }
+  else if ((input1%15)===0){
+    ret
+  }
 
 }
