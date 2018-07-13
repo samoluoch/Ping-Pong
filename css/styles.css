@@ -9,6 +9,7 @@ h1 {
 #author {
   float: left;
   background-color: #808080;
+  width: 100%;
 }
 #play {
   align-content: center;
