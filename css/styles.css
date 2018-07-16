@@ -13,6 +13,7 @@ h1 {
   width: 100%;
   margin-top: 0px;
   color: white;
+  margin-bottom: 10px;
 }
 #play {
   align-content: center;
@@ -22,4 +23,12 @@ h1 {
   background-color: #6699ff;
   width: 200px;
   float: center;
+}
+#play {
+  background-color: white;
+  color: black;
+  margin-bottom: 0%;
+}
+#rules {
+  margin-bottom: 109px;
 }
