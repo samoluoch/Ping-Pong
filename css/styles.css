@@ -6,6 +6,9 @@ h1 {
   height: 200px;
   padding-top: 5%;
   margin-bottom: 0px;
+  background-image: url(../images/images.png);
+  background-repeat: no-repeat;
+  background-image: 1000px;
 }
 #author {
   float: left;
@@ -31,4 +34,10 @@ h1 {
 }
 #rules {
   margin-bottom: 109px;
+}
+play:hover{
+  background-color: maroon;
+}
+h1:hover {
+  background-color: pink;
 }
